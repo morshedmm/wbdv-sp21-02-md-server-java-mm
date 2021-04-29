@@ -15,7 +15,7 @@ import com.example.wbdvsp2102mdserverjava.services.ReviewService;
 import com.example.wbdvsp2102mdserverjava.models.Review;
 
 @RestController
-@CrossOrigin(origins = "http://recipehero2021.herokuapp.com", allowCredentials = "true")
+@CrossOrigin(origins = "http://recipehero-2021.herokuapp.com", allowCredentials = "true")
 //@CrossOrigin(origins = "*")
 public class ReviewController {
   @Autowired

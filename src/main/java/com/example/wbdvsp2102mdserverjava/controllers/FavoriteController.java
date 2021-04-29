@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 //@CrossOrigin(origins = "*")
-@CrossOrigin(origins = "http://recipehero2021.herokuapp.com", allowCredentials = "true")
+@CrossOrigin(origins = "http://recipehero-2021.herokuapp.com", allowCredentials = "true")
 //@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 public class FavoriteController {
   @Autowired

@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 //@CrossOrigin(origins = "*")
 
 @RestController
-@CrossOrigin(origins = "http://recipehero2021.herokuapp.com", allowCredentials = "true")
+@CrossOrigin(origins = "http://recipehero-2021.herokuapp.com", allowCredentials = "true")
 //@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 public class UserController {
   @Autowired
